@@ -39,7 +39,7 @@ block = (
     + ',\n'.join(entries) + '\n'
     '  };\n'
     '  var cookAudio = new Audio(SFX.cook);\n'
-    '  cookAudio.loop = true;          /* the clip is 10s, the countdown can be 15min, so loop */\n'
+    '  cookAudio.loop = true;          /* the clip is about 2s, the countdown can be 15min, so loop */\n'
     '  cookAudio.volume = 0.45;\n'
     '\n'
     '  var sfxPool = {};\n'
